@@ -20,6 +20,7 @@ INSTRUCTIONS
 CONFIGURATION
 =============
 Search and replace <Site> with whatever you want for the title.
+Search and replace CHANGE ME with whatever you want as the header.
 Edit the variables in this section to make the script work as
 you require.
 
@@ -357,7 +358,7 @@ $dirs = @array_values($dirs); $files = @array_values($files);
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><Site> Dirlist</title>
+<title><Site></title>
 <link rel="stylesheet" type="text/css" href="<?php echo $includeurl; ?>dlf/styles.css" />
 <?php
 if($showthumbnails) {
@@ -389,7 +390,7 @@ function f(n) {
 <body>
 <div class="container">
 <div class="hero-unit">
-  <h1><center>Random files</center></h1>
+  <h1><center><CHANGE ME(I'm a header)></center></h1>
   <?php
  	 $breadcrumbs = split('/', str_replace($startdir, '', $leadon));
   	if(($bsize = sizeof($breadcrumbs))>0) {

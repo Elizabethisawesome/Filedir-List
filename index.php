@@ -8,7 +8,7 @@ Modified Script Author: Takeru Lunsford <Takeru@Dreaming-Gamers.com> / www.dream
 REQUIREMENTS
 ============
 PHP
-GD2 (If you wish you use thumbnails)
+GD2 (If you wish to use thumbnails)
 Bootstrap (Included)
 
 INSTRUCTIONS
